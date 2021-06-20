@@ -1,7 +1,12 @@
 import React from 'react'
+import Github from './Components/Github'
 
 const App = () => {
-  return <h1>Hello World </h1>
+  return (
+    <>
+      <Github />
+    </>
+  )
 }
 
 export default App
